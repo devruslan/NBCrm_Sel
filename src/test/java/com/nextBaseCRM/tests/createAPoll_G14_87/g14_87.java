@@ -1,6 +1,6 @@
 package com.nextBaseCRM.tests.createAPoll_G14_87;
 
-import com.nextBaseCRM.tests.utilities.Sleep;
+import com.nextBaseCRM.utilities.Sleep;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

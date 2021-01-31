@@ -1,4 +1,4 @@
-package com.nextBaseCRM.tests.utilities;
+package com.nextBaseCRM.utilities;
 
 public class Sleep {
 
