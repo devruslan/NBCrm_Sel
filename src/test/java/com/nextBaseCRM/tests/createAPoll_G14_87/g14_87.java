@@ -1,21 +1,17 @@
 package com.nextBaseCRM.tests.createAPoll_G14_87;
 
 import com.nextBaseCRM.tests.utilities.Sleep;
-import com.sun.tools.javac.comp.Check;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import java.util.List;
 import java.util.concurrent.TimeUnit;
-import java.util.stream.Stream;
 
 public class g14_87 {
     public static void main(String[] args) {
-
 
         //TODO: DRIVER SETUP
         WebDriverManager.chromedriver().setup();
@@ -125,6 +121,7 @@ public class g14_87 {
         else    System.out.println("TEST-6-3 | FAILED!!!");// Expected: After second click checkbox IS enabled and is NOT selected.
 
         //--- END OF TEST-6 ------------------------------------------------------
+
 
         //TODO:             TEST-7
         // ACTION:          Click "Add Question" link
