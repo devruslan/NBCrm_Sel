@@ -13,7 +13,7 @@ import java.util.concurrent.TimeUnit;
 public class g14_87 {
     public static void main(String[] args) {
 
-        //TODO: DRIVER SETUP
+        // DRIVER SETUP
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
